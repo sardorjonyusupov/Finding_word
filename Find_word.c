@@ -16,10 +16,10 @@ int main()
         return 1;
     }
 
-    char word[10];
+    char word[20];
     int count = 0;
 
-    while (fgets(word, 10, file) != NULL)
+    while (fgets(word, 20, file) != NULL)
     {
         count++;
     }
@@ -30,7 +30,7 @@ int main()
 
     for (int i = 0; i <= random_index; i++)
     {
-        fgets(word, 10, file);
+        fgets(word, 20, file);
     }
 
     printf("%s", word);
